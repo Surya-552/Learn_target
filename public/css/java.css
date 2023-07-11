@@ -1,0 +1,97 @@
+
+.java {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px 0px 40px;
+    width: fit-content;
+}
+
+.java center img {
+    width: 50%;
+    height: 100%;
+}
+
+.java ul li {
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-weight: 200;
+}
+
+.java p {
+    color: black;
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 30px;
+    color: #1a558b;
+}
+
+h2 {
+    font-size: 25px;
+    color: #1a558b;
+    ;
+}
+
+h3 {
+    font-size: 23px;
+    color: #1a558b;
+}
+
+ol li {
+    color: black;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+ol li span {
+    font-size: 20px;
+    color: #448ed2;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hrclass {
+    height: 3px;
+    background-color: #448ed2;
+}
+
+.green_c {
+    font-size: 15px;
+    color: #22a765;
+    letter-spacing: 3px;
+}
+
+i strong {
+    color: black;
+}
+
+.example pre {
+    /* border: 2px solid gray; */
+    width: 50%;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.out {
+    font-size: 17px;
+    color: black;
+    font-weight: bolder;
+}
+
+.jump {
+    padding-top: 40px;
+}
+center{
+    width: 100%;
+    height: fit-content;
+}

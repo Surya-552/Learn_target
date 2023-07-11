@@ -1,0 +1,126 @@
+<%- include('partials/header') -%>
+
+<style>
+#showresult{
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+#results{
+    border: 2px solid black;
+    padding: 20px;
+    left:0pt;
+}
+.cont{
+    padding: 20px;
+}
+.ques{
+    font-size: 20px;
+    font-weight: bold;
+}
+.option{
+    margin-left: 8px;
+    font-size: 16px;
+}
+.btnn{
+display: inline-block;
+background: #ff523b;
+color: white;
+padding: 8px 30px;
+margin-top: 30px;
+border-radius: 30px;
+text-decoration: none;
+cursor: pointer;
+margin-left: 40%;
+text-align: center;
+}
+.option .icon{
+height: 16px;
+width: 16px;
+border: 2px solid transparent;
+border-radius: 50%;
+text-align: center;
+font-size: 16px;
+pointer-events: none;
+transition: all 0.3s ease;
+line-height: 24px;
+display: inline;
+margin-left: 50px;
+}
+.option .icon.tick{
+color: #23903c;
+border-color: #23903c;
+background: #d4edda;
+
+}
+
+.option .icon.cross{
+color: #a42834;
+background: #f8d7da;
+border-color: #a42834;
+
+}
+.AnsBox{
+height: 50px;
+width: 300px;
+border: 1px solid black;
+margin-left: 15px;
+padding: 5px;
+display: flex;
+flex-direction: column;
+}
+.AnsBox p{
+margin: 0;
+font-weight: bold;
+}
+.AnsBox span{
+    margin-left: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+.option_list .option .icon.cross{
+    color: #a42834;
+    background: #f8d7da;
+    border-color: #a42834;
+}
+</style>
+<section class="slider-area slider-area2" style="height: 250px;">
+    <div class="slider-active">
+        <!-- Single Slider -->
+        <div class="single-slider slider-height2">
+            <div class="container">
+                <div class="row" style="margin-top:-12%">
+                    <div class="col-xl-8 col-lg-11 col-md-12">
+                        <div class="hero__caption hero__caption2">
+                            <h1 data-animation="bounceIn" data-delay="0.2s">Our courses</h1>
+                            <!-- breadcrumb Start-->
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Services</a></li> 
+                                </ol>
+                            </nav>
+                            <!-- breadcrumb End -->
+                        </div>
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </div>
+</section>
+<div id="showresult" >
+    <center><h1 >Thank you!</h1></center>
+    <div id="results"class="results"></div>
+    <button class='btnn' onclick='printPageArea("showresult")'>Print</button>
+</div>
+
+  <script src="Quiz/QuizTopic.js"></script>
+<script src="Quiz/dynamicscript.js"></script>
+
+ 
+<%- include('partials/footer') -%>
